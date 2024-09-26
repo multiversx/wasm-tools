@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+#![allow(invalid_reference_casting)]
 use crate::limits::*;
 use crate::ResizableLimits64;
 use crate::WasmModuleResources;
